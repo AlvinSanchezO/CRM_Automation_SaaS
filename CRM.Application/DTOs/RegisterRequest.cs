@@ -1,3 +1,4 @@
+namespace CRM.Application.DTOs;
 public record RegisterRequest(
     string FullName, 
     string Email, 
