@@ -1,0 +1,25 @@
+## [ Estándar de .NET ]
+bin/
+obj/
+out/
+.vs/
+.vscode/
+*.user
+*.userosscache
+*.sln.doccache
+
+## [ Configuración Sensible ]
+appsettings.Development.json
+appsettings.Local.json
+*.pfx
+*.publishsettings
+
+## [ Docker ]
+.dockerignore
+postgres_data/
+
+## [ Otros ]
+.DS_Store
+dist/
+node_modules/
+.env
